@@ -1,0 +1,14 @@
+html
+	body
+	p User info:
+	ul
+		each val in user
+			each us in users
+				if(user.input == us.firstname || user.input == us.lastname)
+					p= us.firstname
+					p= us.lastname
+					p= us.email
+
+	<a href="form">Back to search</a>
+	br
+	<a href="/">Back to user list</a>

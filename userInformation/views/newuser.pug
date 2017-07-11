@@ -1,0 +1,13 @@
+html
+  body
+    form(action='/newuser', method='POST')
+      p
+      label(for='fname')  First name: 
+      input(type='text', name='fname', value='')
+      label(for='lname')  Last name: 
+      input(type='text', name='lname', value='')
+      label(for='email')  E-mail: 
+      input(type='text', name='email', value='')
+      input(type='submit', value='Submit')
+      br
+      <a href="/">Back</a>
